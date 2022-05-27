@@ -1,0 +1,28 @@
+Input for reading_measures_adapted.py:
+
+- script to extract the reading measures from a Data Viewer fixation report
+- save Data Viewer fixation report as .txt file 
+
+Choose the following variables as Selected Variables:
+
+RECORDING_SESSION_LABEL
+TRIAL_INDEX
+CURRENT_FIX_INDEX
+CURRENT_FIX_X
+CURRENT_FIX_Y
+CURRENT_FIX_DURATION
+CURRENT_FIX_INTEREST_AREA_INDEX
+TRIAL_LABEL
+
+
+Tick only the following options:
+- place Quotes around string / text variables
+- create output report for all custom interest periods
+	- report IP data in one file
+
+
+- save as tab-delimited *.txt file
+
+Program call:
+$ python3 reading_measures_adapted.py --lang L1
+$ python3 reading_measures_adapted.py --lang L2
