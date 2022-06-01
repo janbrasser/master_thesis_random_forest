@@ -1,3 +1,5 @@
+# written by Patrick Haller, adjusted by Jan Brasser
+
 import torch
 # from transformers import GPT2LMHeadModel, GPT2TokenizerFast
 from transformers import BertTokenizerFast, BertForMaskedLM
