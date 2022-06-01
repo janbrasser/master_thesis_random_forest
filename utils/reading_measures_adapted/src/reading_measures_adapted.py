@@ -1,3 +1,5 @@
+# by Patrick Haller, Lena Jäger, Lena Bolliger and Jan Brasser
+
 import numpy as np
 from argparse import ArgumentParser, FileType
 import pandas as pd
